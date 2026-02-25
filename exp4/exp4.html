@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM and jQuery Experiment</title>
+
+    <link rel="stylesheet" href="exp4.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body id="body">
+
+    <h1 id="title">Online Product Showcase</h1>
+
+    <div class="card">
+
+        <!-- Image 1 -->
+        <img id="img1" 
+        src="https://makerbazar.in/cdn/shop/products/black-wired-headset-earphone-without-mic-headphone-original-imafyf3ckzzbfduj_1.webp?v=1660479634">
+
+        <!-- Image 2 (Hidden initially) -->
+        <img id="img2" 
+        src="headphone.png"
+        style="display:none;">
+
+        <h2 id="productName">Basic Headphones</h2>
+        <p id="price">Price: ₹1500</p>
+
+        <button onclick="changeProduct()">Change Product</button>
+
+        <br><br>
+
+        <button id="hideBtn">Hide Image</button>
+        <button id="showBtn">Show Image</button>
+        <button id="toggleBtn">Toggle Image</button>
+        <button id="animateBtn">Animate Image</button>
+
+    </div>
+
+    <script src="exp4.js"></script>
+
+</body>
+</html>

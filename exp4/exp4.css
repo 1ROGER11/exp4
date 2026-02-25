@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.card {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
