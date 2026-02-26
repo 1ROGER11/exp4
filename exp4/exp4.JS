@@ -12,7 +12,7 @@ function changeProduct() {
     document.getElementById("body").style.backgroundColor = "#e6f2ff";
 }
 
-/* jQuery Part */
+
 $(document).ready(function(){
 
     $("#hideBtn").click(function(){
