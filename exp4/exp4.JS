@@ -1,9 +1,9 @@
 function changeProduct() {
 
-    // Hide first image
+    
     document.getElementById("img1").style.display = "none";
 
-    // Show second image
+    
     document.getElementById("img2").style.display = "block";
 
     document.getElementById("productName").innerHTML = "Wireless Bluetooth Headphones";
